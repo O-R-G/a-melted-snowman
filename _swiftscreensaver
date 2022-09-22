@@ -1,0 +1,42 @@
+--
+
+22 SEP 2022
+
+--
+
+1. new xcode project: Screensaver 
+   project Name should be same as desired Name.saver
+
+2. rm objective-c files installed by default, 
+   Name.h Name.m
+
+3. add swift class Saverview as subclass of ScreenSaverView
+  
+4. add target as macOS app, Runner, choose XIB
+   cp Runner AppDelegate class from previous
+   
+5. rm * entitlements in Runner/Runner.entitlements
+
+6. edit scheme, Runner 
+   add pass argument -saver Product\ name.saver
+
+7. edit build settings, Runner
+   add dependency Name.saver
+
+7. edit build settings, Project name
+   set Principal Class = Project_name.Saverview
+
+8. for target Name (.saver), edit Build Settings
+
+9. for any bundle resources to be used in .saver, 
+   build custom path to .saver bundle 
+
+--
+
+Project name = A Melted Snowman (xcode)
+Project name (programmatic) = A_Melted_Snowman (.plist)
+Bundle name = com.o-r-g.A-Melted-Snowman (macos, apple)
+Product name = A Melted Snowman (macos)
+
+
+

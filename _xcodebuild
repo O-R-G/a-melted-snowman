@@ -1,0 +1,17 @@
++ get project info
+
+	> cd /path/to/source
+	> xcodebuild -list						                    (schemes)
+	> xcodebuild -showBuildSettings | grep TARGET_BUILD_DIR		(build dir)
+
++ set environment vars
+
+	> _BUILD=~/Library/Developer/Xcode/DerivedData/Project-hash/Build/Products/Debug
+	> _TEST=$_BUILD/Runner.app
+	> _INSTALL=~/Library/Screen\ Savers/
+
++ build, test, install
+
+	> xcodebuild -scheme Scheme build
+	> xcodebuild -scheme Scheme build; open $_TEST --args -saver Name
+	> xcodebuild -scheme Scheme build; cp -rf $_BUILD/Name.saver $_INSTALL

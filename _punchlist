@@ -1,0 +1,12 @@
++ SKEmitterNode programmatically
++ icon
++ change target name to A Melted Snowman
++ _swiftscreensaver notes
+- conform to ScreenSaverView display order
+  https://developer.apple.com/documentation/screensaver
+- randomize snow (amt, strength, etc)
+- preview scaling?
+- codesign
+- pkg
+- webpage
+- download tests

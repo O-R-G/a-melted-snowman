@@ -12,3 +12,5 @@ x preview scaling?
 + paypal (sandbox) test
 + beta *out*
 + release
++ add Always Copy Standard Swift Libraries to address issue with macOS 10.13.6
+  https://stackoverflow.com/questions/69247759/xcode-macos-development-target-version-and-actual-compatibility

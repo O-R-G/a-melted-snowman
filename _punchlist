@@ -2,11 +2,13 @@
 + icon
 + change target name to A Melted Snowman
 + _swiftscreensaver notes
-- conform to ScreenSaverView display order
-  https://developer.apple.com/documentation/screensaver
-- randomize snow (amt, strength, etc)
-- preview scaling?
-- codesign
-- pkg
-- webpage
-- download tests
+x randomize snow (amt, strength, etc)
++ webpage
++ download tests
++ conform to ScreenSaverView display order
+x preview scaling?
++ target macos 11? arm + intel
++ codesign bash script
++ paypal (sandbox) test
++ beta *out*
++ release

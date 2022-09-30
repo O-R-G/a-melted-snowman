@@ -54,8 +54,8 @@ class Saverview: ScreenSaverView {
             scene.backgroundColor = .black
             
             // add skview as a subview
-            skview.showsFPS = true
-            skview.showsNodeCount = true
+            // skview.showsFPS = true
+            // skview.showsNodeCount = true
             skview.presentScene(scene)
             self.addSubview(skview)
         }
